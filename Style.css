@@ -1,0 +1,111 @@
+img{
+	width: 100%;
+	height: 620px;
+	vertical-align: top;
+	margin-bottom: 8px;	
+}
+#content div{
+	position: relative;
+	display: inline-block;
+	background-color: #DDA0DD;
+	width: 28.9%;
+	border: 4px solid black;
+	border-left-width: 15px;
+	border-right-style: double;
+	border-right-width: 8px;
+	margin: 5px;
+	padding: 2px;
+	text-align: center;
+	padding-bottom: 8px;
+	padding-top: 10px;
+
+}
+h2{
+	color: yellow;
+	font-size: 25px;
+}
+body{
+	background-color: lightblue;
+	text-align: center;
+	margin: 0;
+}
+a{
+
+	text-decoration: none;
+	font-size: 27px;
+	color: lightgreen;
+	border: 3px solid pink;
+	padding: 3px 20px;
+	background-color: pink;
+	border-radius: 10px;
+
+}
+.menu{
+	position: fixed;
+	background-color: white;
+	width: 15%;
+	height: 100%;
+	z-index: 5;
+	padding: 1.5%;
+}
+.menu a{
+	color: darkblue;
+	text-decoration: none;
+	display: block;
+
+
+
+}
+#content{
+	width: 81%;
+	margin-left:17%;
+	padding: 1%;
+
+}
+/*.left{
+	correcting gaps and getting rid of the margin
+	margin: 0;
+	padding: 0;
+	border: none;
+	positioning
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	adding width of blocks and styling
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	font-size: 24px;
+	background-color: pink;
+	opacity: 0.8;
+}
+.right{
+	correcting gaps and getting rid of the margin
+	margin: 0;
+	padding: 0;
+	border: none;
+	positioning
+	position: fixed;
+	top: 0%;
+	right: 0%;
+	adding width of blocks and styling
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	font-size: 24px;
+	background-color: pink;
+	opacity: 0.8;
+}*/
+p{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 30%;
+}
+.star{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 0;
+	right: 5px;
+}
